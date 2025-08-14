@@ -13,7 +13,7 @@ import math
 # print("Exercício 2 - resto da divisão por 5")
 # numero_01 = int(input("Inserir um numero inteiro: "))
 # numero_02 = 5
-r# esultado = numero_01 % numero_02
+# esultado = numero_01 % numero_02
 # print(resultado)
 
 # 3. Desenvolva um programa que multiplique dois números fornecidos pelo usuário e mostre o resultado.
@@ -80,11 +80,35 @@ r# esultado = numero_01 % numero_02
 
 # #### Strings (`str`)
 
-# 11. Escreva um programa que receba uma string do usuário e a converta para maiúsculas.
-# 12. Crie um programa que receba o nome completo do usuário e imprima o nome com todas as letras minúsculas.
-# 13. Desenvolva um programa que peça ao usuário para inserir uma frase e, em seguida, imprima esta frase sem espaços em branco no início e no final.
-# 14. Faça um programa que peça ao usuário para digitar uma data no formato "dd/mm/aaaa" e, em seguida, imprima o dia, o mês e o ano separadamente.
-# 15. Escreva um programa que concatene duas strings fornecidas pelo usuário.
+# # 11. Escreva um programa que receba uma string do usuário e a converta para maiúsculas.
+# print("Exercício 11 - converta para maiúsculas")
+# nome = input("Digite seu nome: ")
+# print(nome.upper())
+
+# # 12. Crie um programa que receba o nome completo do usuário e imprima o nome com todas as letras minúsculas.
+# print("Exercício 12 - converta para minuscula")
+# nome = input("Digite seu nome: ")
+# print(nome.lower())
+
+# # 13. Desenvolva um programa que peça ao usuário para inserir uma frase e, em seguida, imprima esta frase sem espaços em branco no início e no final.
+# print("Exercício 13 - SEM ESPAÇO EM BRANCO NO INICIO E NO FINAL")
+# nome = input("Digite seu nome: ")
+# print(nome.strip())
+
+# # 14. Faça um programa que peça ao usuário para digitar uma data no formato "dd/mm/aaaa" e, em seguida, imprima o dia, o mês e o ano separadamente.
+# print("Exercício 14 - Imprimir dia mes e ano separados")
+# data = input("Digite uma data no formato dd/mm/aaaa: ")
+# data_separada = data.split("/")
+# #print(data_separada)
+# print(f"Dia: {data_separada[0]}")
+# print(F"Mês: {data_separada[1]}")
+# print(F"Ano: {data_separada[2]}")
+
+# #15. Escreva um programa que concatene duas strings fornecidas pelo usuário.
+# print("Exercício 15 - concatene duas strings")
+# texto1 = input("Digite uma palavra: ")
+# texto2 = input("Digite outra palavra: ")
+# texto3 = print(texto1 + texto2)
 
 # data_do_usuario = input("Insira uma data no formato dd/mm/aaaa: ")
 # lista_de_dia_mes_ano = data_do_usuario.split("/")
